@@ -3,31 +3,29 @@
 	"version": "1.0.0",
 	"description": "This pattern is my very basic grunt procect für a sass based web project",
 	"main": "Gruntfile.js",
-	"dependencies": {
-		"gitignore":"git+https://gist.github.com/mklippel/17893aa3ba005dbb8542e6ee5e1062da"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"autoprefixer": "^9.5.1",
 		"cssnano": "^4.1.10",
 		"grunt": "^1.1.0",
+		"grunt-banner": "^0.6.0",
 		"grunt-contrib-clean": "^2.0.0",
 		"grunt-contrib-copy": "^1.0.0",
-		"grunt-contrib-cssmin": "^3.0.0",
-		"grunt-contrib-uglify": "^4.0.1",
 		"grunt-contrib-watch": "^1.1.0",
 		"grunt-postcss": "^0.9.0",
-		"grunt-real-favicon": "^0.2.4",
 		"grunt-sass": "^3.0.2",
 		"jit-grunt": "^0.10.0",
-		"node-sass": "^4.13.1",
-		"smartmenus": "^1.1.0"
-		
+		"node-sass": "^4.13.1"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": {
-		"name": "Michael Klippel"
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mklippel/grunt-basic-webproject.git"
 	},
-	"license": "Fair"
+	"author": {
+		"name": "Michael Klippel"		  
+	},
+	"license": "Apache License 2.0"
 }
