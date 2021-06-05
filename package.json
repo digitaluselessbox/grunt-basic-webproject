@@ -5,9 +5,9 @@
 	"main": "Gruntfile.js",
 	"dependencies": {},
 	"devDependencies": {
-		"autoprefixer": "^9.5.1",
-		"cssnano": "^4.1.10",
-		"grunt": "^1.1.0",
+		"autoprefixer": "^10.2.6",
+		"cssnano": "^5.0.5",
+		"grunt": "^1.4.1",
 		"grunt-banner": "^0.6.0",
 		"grunt-contrib-clean": "^2.0.0",
 		"grunt-contrib-copy": "^1.0.0",
@@ -15,7 +15,8 @@
 		"grunt-postcss": "^0.9.0",
 		"grunt-sass": "^3.0.2",
 		"jit-grunt": "^0.10.0",
-		"node-sass": "^4.13.1"
+		"node-sass": "^4.14.1",
+		"postcss": "^8.3.0"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -25,7 +26,7 @@
 		"url": "https://github.com/mklippel/grunt-basic-webproject.git"
 	},
 	"author": {
-		"name": "Michael Klippel"		  
+		"name": "Michael Klippel"
 	},
 	"license": "Apache License 2.0"
 }
